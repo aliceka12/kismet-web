@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagos | Kismet México</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>Pagos seguros</span><span>📞 229 205 5659</span></div></div>
+  <header class="navbar"><div class="container nav-content"><a class="logo" href="index.html"><span class="logo-mark">K</span><span>Kismet México<small>Soluciones integrales</small></span></a><button class="menu-toggle">☰</button><nav class="nav-links"><a href="index.html">Inicio</a><a href="quienes-somos.html">Quiénes somos</a><a href="servicios.html">Servicios</a><a class="active" href="pagos.html">Pagos</a><a href="contacto.html">Contacto</a></nav></div></header>
+
+  <section class="page-header"><div class="container"><span class="badge">Pagos digitales</span><h1>Pagos seguros para tus servicios</h1><p>Solicita tu liga de pago personalizada de acuerdo con el servicio contratado, monto acordado y método disponible.</p></div></section>
+
+  <section class="section">
+    <div class="container pay-layout">
+      <div class="pay-box">
+        <h2 style="font-family:Georgia,serif;margin-bottom:1rem">Solicitar liga de pago</h2>
+        <p style="color:var(--muted);margin-bottom:1rem">Cada operación puede manejar un monto diferente. Para mayor seguridad, generamos la liga correspondiente según el servicio y el importe acordado.</p>
+        <div class="form-grid">
+          <label>Nombre o empresa<input id="payerName" type="text" placeholder="Ej. Empresa / cliente"></label>
+          <label>Monto a pagar<input id="payAmount" type="number" min="20" placeholder="Ej. 50000"></label>
+          <label>Concepto<input id="payConcept" type="text" placeholder="Ej. Anticipo de servicio"></label>
+        </div>
+        <button class="btn btn-gold" id="requestPaymentLink">Solicitar link de pago</button>
+        <div class="notice"><b>Importante:</b> La liga de pago se genera de acuerdo con el monto real de cada operación. Los métodos disponibles pueden variar según la validación final de la cuenta y aprobación de Conekta.</div>
+      </div>
+      <div class="card pay-card-side">
+        <h3>Opciones de pago</h3>
+        <p>La empresa puede recibir pagos mediante los métodos que Conekta habilite para la cuenta.</p>
+        <ul class="check-list">
+          <li>Tarjeta de crédito o débito</li>
+          <li>Transferencia bancaria</li>
+          <li>Pago en efectivo con referencia</li>
+          <li>Links de pago personalizados</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about"><div class="container"><div class="section-title"><span>Proceso</span><h2>¿Cómo funciona?</h2><p>El cliente solicita su liga, se genera el enlace de pago seguro y se confirma la operación desde la plataforma.</p></div><div class="grid grid-3"><div class="card"><div class="card-icon">1</div><h3>Solicita el monto</h3><p>Indica el servicio, nombre y cantidad a pagar.</p></div><div class="card"><div class="card-icon">2</div><h3>Recibe la liga</h3><p>Se genera un link oficial para completar el pago.</p></div><div class="card"><div class="card-icon">3</div><h3>Confirmación</h3><p>El pago queda registrado para seguimiento interno.</p></div></div></div></section>
+
+  <footer class="footer"><div class="container footer-grid"><div><h3>Kismet México</h3><p>Pagos y contacto digital.</p></div><div><h4>Menú</h4><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a></div><div><h4>Contacto</h4><a href="https://wa.me/522292055659" target="_blank">WhatsApp</a><a href="mailto:logisticaytransportesintegral@gmail.com">Correo</a></div></div><div class="container footer-bottom">© <span id="year"></span> Kismet México.</div></footer><a class="whatsapp-float" href="https://wa.me/522292055659" target="_blank">☏</a><script src="assets/js/main.js"></script></body></html>
